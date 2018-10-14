@@ -3,7 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
-      - yarn run build:prod
+      - echo Nothing to do yet
 artifacts:
   files:
     - public/index.html
