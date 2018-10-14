@@ -3,7 +3,9 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo Nothing to do yet
+      - yarn run build:prod
 artifacts:
   files:
-    - public/* 
+    - public/index.html
+    - public/dist/*
+    - public/images/*
