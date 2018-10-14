@@ -1,9 +1,8 @@
 version: 0.1
 
 phases:
-build:
-commands:
-- yarn run build:prod
+   build: 
+    commands: - yarn run build:prod
 artifacts:
-files:
-- public/*
+  files:
+    - public/*
