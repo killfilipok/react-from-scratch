@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { startLogin } from '../actions/auth'
 import auth from '../actions/auth'
 
+
 export const LoginPage = ({ startLogin }) => (
     <div className="box-layout">
         <div className="box-layout__box">
@@ -16,6 +17,5 @@ export const LoginPage = ({ startLogin }) => (
 const mapDispatchToProps = (dispatch) => ({
     startLogin: () => dispatch(startLogin())
 })
-
 
 export default connect(undefined, mapDispatchToProps)(LoginPage)
