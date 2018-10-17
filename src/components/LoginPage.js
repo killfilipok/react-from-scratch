@@ -8,7 +8,7 @@ export const LoginPage = ({ startLogin }) => (
         <div className="box-layout__box">
             <h1 className="box-layout__title">React App</h1>
             <p>TagLine.</p>
-            <button className="button" onClick={startLogin}>Log in with Google</button>
+            <button className="Button" onClick={startLogin}>Log in with Google</button>
         </div>
     </div>
 )
